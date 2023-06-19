@@ -22,4 +22,4 @@ int main()
 	cout << "baris program yang terakhir" << endl;
 	/*penanda 2: bahwa program berjalan tenpa berhenti meskipun terjadi kesalahan*/
 	return 0;
-}
+} 
