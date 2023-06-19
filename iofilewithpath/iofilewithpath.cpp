@@ -14,7 +14,7 @@ int main() {
 	ofstream outfile;
 	// menujuk ke sebuah nama file
 	outfile.open(NamaFile, ios::out);
-
+	 
 	cout << ">= Menulis file, \'q'\ untuk keluar " << endl;
 
 	// membuka file dalam mode membaca
