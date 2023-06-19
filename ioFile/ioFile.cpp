@@ -1,5 +1,6 @@
 #include <fstream>
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -39,5 +40,10 @@ int main() {
 			//dan tampilkan di sini
 			cout << baris << '\n';
 		}
+		//tutup file tersebut stelah selesai
+		infile.close();
 	}
+	//jika tidak ditemukan file maka menapilkan ini'
+	else cout << " unable to open file";
+	return 0;
 }
